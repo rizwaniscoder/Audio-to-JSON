@@ -109,7 +109,7 @@ def handle_file_upload(uploaded_file):
 def main():
     st.title("Audio Transcription and Information Extraction")
     # Add toml file containing openai api key 
-    file_path = 'D:\\finalproject\\ai\\secrets.toml'
+    file_path = 'secrets.toml'
     # Load API key and initialize client
     api_key = load_api_key(file_path)
     if api_key is None:
